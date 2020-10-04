@@ -26,4 +26,4 @@ There are multiple flags you can use to run the script:
 
 ### Outcome
 
-![export/stack.png](Twilight, 2008)
+![Twilight, 2008](export/stack.png)
