@@ -7,9 +7,9 @@ from PIL import Image
 parser = argparse.ArgumentParser(description='Choose size of paper to print')
 parser.add_argument("--paper", dest='paper_size', type=str, default='a6',
                     choices=['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6'])
-parser.add_argument("--n", dest='n_img', type=int, default=2000)
-parser.add_argument("--v", dest='video_p', type=str)
-parser.add_argument("--i", dest='images_f', type=str)
+parser.add_argument("-n", dest='n_img', type=int, default=2000)
+parser.add_argument("-v", dest='video_p', type=str)
+parser.add_argument("-i", dest='images_f', type=str)
 
 
 def calc_skip_frames(video, n_img):
